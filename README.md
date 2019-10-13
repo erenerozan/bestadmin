@@ -1,2 +1,0 @@
-# bestadmin
-Created with CodeSandbox

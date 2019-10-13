@@ -1,0 +1,34 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+pre {
+  overflow: auto;
+  background-color: black;
+  color: orange;
+  font-family: monospace;
+  padding: 5px;
+  font-weight: 600;
+  max-width: 100%;
+
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.Draftail-ToolbarButton {
+  box-shadow: 0 0 0 0 orange inset;
+  transition: box-shadow 0.5s ease;
+}
+
+.Draftail-ToolbarButton--active {
+  background-color: transparent;
+  border-width: 0 0 0 0;
+  border-color: orange;
+  box-shadow: 0 -36px 0 0 orange inset;
+  color: black;
+  border-radius: 0px;
+}
